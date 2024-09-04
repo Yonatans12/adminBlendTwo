@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+  }
+  .MuiDataGrid-columnHeaders {
+    /* background-color: #40C4FF !important; */
+    /* border-radius: 10px !important; */
+    font-size: medium !important;
+  }
+  .MuiDataGrid-columnHeaderTitle {
+    color: #000f !important ;
+    font-weight: 600 !important;
+    
+  }
+   
+/* Override DataGrid styles */
+.MuiDataGrid-root.css-uol1or-MuiDataGrid-root {
+    --DataGrid-containerBackground: transparent; /* Change the background color */
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+  height: 6px;
+  }
+   
+  ::-webkit-scrollbar-track {
+    background: #fff;
+   
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 30px;
+   
+  }
+
+  .MuiDataGrid-cell:focus-within {
+    outline: none !important;
+  }
+  
+  .MuiDataGrid-columnHeader:focus {
+    outline: none !important;
+  }
+
+  .MuiDataGrid-root{
+    --DataGrid-containerBackground: #40C4FF !important;
+  }
+
+  input:focus {
+    outline:none;
+}
